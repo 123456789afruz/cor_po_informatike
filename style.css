@@ -34,6 +34,12 @@ section {
     p {
         color: #008000;
     }
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        text-align: center;
+    }
     
 }
 .wrap2 {
@@ -48,6 +54,12 @@ section {
     p {
         color: #FF4B33;
     }
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
 }
 .wrap3 {
     display: flex;
@@ -61,11 +73,23 @@ section {
     p {
         color: blue;
     }
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
 }
 .wrapper {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 ul {
